@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+
+.App {
+    background-image: url('polygon.png');
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc {
+    padding: 4px;
+    width: 320px;
+    border-radius: 10px;
+    height: 500px;
+    background: #005091;
+    margin: 10px;
+}
+
+.display {
+    background-color: rgb(121, 235, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 25%;
+    color: #1d202a;
+    font-size: 40px;
+    padding: 0px 8px;
+    border: #005091 1px solid;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.display__input {
+    padding-top: 2px;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+.display__value {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    margin-top: 2%;
+    height: 73%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.action-btn {
+    width: 25%;
+    height: 20%;
+    font-size: 25px;
+    background: #005091;
+    color: #fff;
+    border: white 1px solid;
+}
+
+#clear-btn {
+    width: 75%;
+}
+
+#equal-btn {
+    width: 50%;
+}
+
+.action-btn:hover {
+    background: #fff;
+    color: black
+}
+
+.author {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+}
